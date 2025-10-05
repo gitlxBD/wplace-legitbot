@@ -45,7 +45,7 @@ pip install -r requirements
 ## Installation
 
 1. Clone or download this repository
-2. Install dependencies: [
+2. Install dependencies: [Requirements](https://github.com/gitlxBD/wplace-legitbot/blob/main/README.md#requirements)
 3. Run the script:
    ```bash
    python wplace-legitbot.py
