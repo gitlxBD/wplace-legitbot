@@ -32,7 +32,6 @@ def fade(text):
     for line_num, line in enumerate(lines):
         line_result = ""
         for i, char in enumerate(line):
-            # Position diagonale avec espacement plus large
             diagonal_pos = (line_num * 3 + i) // 4
             color_index = diagonal_pos % len(colors)
             line_result += colors[color_index] + char
@@ -424,3 +423,4 @@ if __name__ == "__main__":
         print(f"\n{Color.RED}❌ Error: {e}{Color.RESET}")
         print(f"\n{Color.YELLOW}If this is a dependency error, install required packages with:{Color.RESET}")
         print(f"{Color.CYAN}pip install pyautogui keyboard opencv-python numpy mss{Color.RESET}")
+
