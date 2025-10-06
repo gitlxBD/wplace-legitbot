@@ -31,7 +31,7 @@ pip install pyautogui keyboard opencv-python numpy mss time
 ```
 or 
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 ### Dependencies
 
