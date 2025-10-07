@@ -24,7 +24,7 @@ The bot analyzes the canvas by:
 This approach helps preserve detailed artwork while targeting solid color areas that may need filling.
 
 ## Requirements
-**Python Version:** Python 3.12+ is recommended for optimal compatibility with all dependencies.
+**Python Version:** Python 3.13.7, tested and working proprely on this version, if any dependencies issue appeared its 99% because of the python version.
 
 ```bash
 pip install pyautogui keyboard opencv-python numpy mss time
